@@ -1,8 +1,11 @@
+'use client'
+
 import { Box, Select, HStack } from '@chakra-ui/react'
 import { useRouter, usePathname } from '@/navigation'
 import { locales } from '@/config'
+import { Locale, isValidLocale } from '@/types'
 
-const languages = [
+const languages: { code: Locale; name: string; flag: string }[] = [
   { code: 'en', name: 'English', flag: '🇺🇸' },
   { code: 'pt', name: 'Português', flag: '🇧🇷' }
 ]
@@ -12,8 +15,10 @@ export const LanguageSelector = ({ currentLocale }: { currentLocale: string }) =
   const pathname = usePathname()
 
   const handleLanguageChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
-    const newLocale = e.target.value
-    router.replace(pathname, { locale: newLocale })
+    const value = e.target.value
+    if (isValidLocale(value)) {
+      router.replace(pathname, { locale: value })
+    }
   }
 
   return (

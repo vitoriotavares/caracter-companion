@@ -1,3 +1,5 @@
+'use client'
+
 import { Box, SimpleGrid, Text, VStack } from '@chakra-ui/react'
 import { useTranslations } from 'next-intl'
 

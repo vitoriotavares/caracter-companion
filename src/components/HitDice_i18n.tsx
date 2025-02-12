@@ -1,3 +1,5 @@
+'use client'
+
 import { Box, HStack, Text, Button, VStack } from '@chakra-ui/react'
 import { FaDice } from 'react-icons/fa'
 import { useTranslations } from 'next-intl'

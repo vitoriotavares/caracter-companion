@@ -1,7 +1,7 @@
 'use client'
 
 import { Box, Container } from '@chakra-ui/react'
-import { CharacterSheet } from '@/components/CharacterSheetResponsive'
+import { CharacterSheet } from '@/components/CharacterSheet'
 
 const mockCharacter = {
   name: 'Piper Stonebend',
@@ -24,10 +24,7 @@ const mockCharacter = {
 
 export default function Home() {
   return (
-    <Container 
-      maxW={{ base: "100%", md: "container.xl" }} 
-      p={{ base: 0, md: 8 }}
-    >
+    <Container maxW="container.xl" py={8}>
       <CharacterSheet character={mockCharacter} />
     </Container>
   )

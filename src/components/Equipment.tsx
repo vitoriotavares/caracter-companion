@@ -1,5 +1,5 @@
 import { Box, Text, VStack, HStack, Icon, Button } from '@chakra-ui/react'
-import { FaBackpack, FaPlus } from 'react-icons/fa'
+import { FaSuitcase, FaPlus } from 'react-icons/fa'
 
 interface EquipmentItem {
   name: string
@@ -40,7 +40,7 @@ export const Equipment = ({ items }: EquipmentProps) => {
             borderRadius="md"
           >
             <HStack>
-              <Icon as={FaBackpack} color="gray.400" />
+              <Icon as={FaSuitcase} color="gray.400" />
               <Text>{item.name}</Text>
             </HStack>
             <HStack spacing={4}>

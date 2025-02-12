@@ -1,0 +1,50 @@
+{
+  "character": {
+    "stats": {
+      "strength": "Strength",
+      "dexterity": "Dexterity",
+      "constitution": "Constitution",
+      "intelligence": "Intelligence",
+      "wisdom": "Wisdom",
+      "charisma": "Charisma"
+    },
+    "skills": {
+      "title": "Skills",
+      "athletics": "Athletics",
+      "sleightOfHand": "Sleight of Hand",
+      "history": "History",
+      "investigation": "Investigation",
+      "nature": "Nature",
+      "animalHandling": "Animal Handling",
+      "insight": "Insight",
+      "medicine": "Medicine",
+      "perception": "Perception",
+      "survival": "Survival",
+      "deception": "Deception",
+      "intimidation": "Intimidation",
+      "performance": "Performance",
+      "persuasion": "Persuasion"
+    },
+    "hitDice": {
+      "title": "Hit Dice",
+      "roll": "Roll Hit Die"
+    },
+    "currency": {
+      "title": "Currency",
+      "cp": "CP",
+      "sp": "SP",
+      "ep": "EP",
+      "gp": "GP",
+      "pp": "PP"
+    },
+    "equipment": {
+      "title": "Equipment",
+      "add": "Add",
+      "quantity": "x{count}"
+    },
+    "rest": {
+      "short": "Short Rest",
+      "long": "Long Rest"
+    }
+  }
+}

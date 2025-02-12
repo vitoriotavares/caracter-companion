@@ -1,0 +1,50 @@
+{
+  "character": {
+    "stats": {
+      "strength": "Força",
+      "dexterity": "Destreza",
+      "constitution": "Constituição",
+      "intelligence": "Inteligência",
+      "wisdom": "Sabedoria",
+      "charisma": "Carisma"
+    },
+    "skills": {
+      "title": "Perícias",
+      "athletics": "Atletismo",
+      "sleightOfHand": "Prestidigitação",
+      "history": "História",
+      "investigation": "Investigação",
+      "nature": "Natureza",
+      "animalHandling": "Adestrar Animais",
+      "insight": "Intuição",
+      "medicine": "Medicina",
+      "perception": "Percepção",
+      "survival": "Sobrevivência",
+      "deception": "Enganação",
+      "intimidation": "Intimidação",
+      "performance": "Atuação",
+      "persuasion": "Persuasão"
+    },
+    "hitDice": {
+      "title": "Dados de Vida",
+      "roll": "Rolar Dado de Vida"
+    },
+    "currency": {
+      "title": "Moedas",
+      "cp": "PC",
+      "sp": "PP",
+      "ep": "PE",
+      "gp": "PO",
+      "pp": "PL"
+    },
+    "equipment": {
+      "title": "Equipamento",
+      "add": "Adicionar",
+      "quantity": "x{count}"
+    },
+    "rest": {
+      "short": "Descanso Curto",
+      "long": "Descanso Longo"
+    }
+  }
+}
